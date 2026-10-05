@@ -1,11 +1,15 @@
-﻿string nazwaDruzynyA = "Drużyna Pierścienia";
+﻿string wyjscieNazwaDruzyny = "Nazwa drużyny: ";
+string wyjscieIloscPunktow = "Ilość punktów: ";
+
+string nazwaDruzynyA = "Drużyna Pierścienia";
 int iloscPunktowA = 8;
-
-Console.WriteLine($"Nazwa drużyny: {nazwaDruzynyA}");
-Console.WriteLine($"Ilość punktów: {iloscPunktowA}");
-
 string nazwaDruzynyB = "Drużyna piłkarska";
 int iloscPunktowB = 15;
 
-Console.WriteLine($"Nazwa drużyny: {nazwaDruzynyB}");
-Console.WriteLine($"Ilość punktów: {iloscPunktowB}");
+Console.WriteLine(wyjscieNazwaDruzyny + nazwaDruzynyA);
+Console.WriteLine(wyjscieIloscPunktow + iloscPunktowA);
+Console.WriteLine(wyjscieNazwaDruzyny + nazwaDruzynyB);
+Console.WriteLine(wyjscieIloscPunktow + iloscPunktowB);
+
+Console.WriteLine(iloscPunktowA + iloscPunktowB);
+Console.WriteLine("iloscPunktowA" + iloscPunktowB);
