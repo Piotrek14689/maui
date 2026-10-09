@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// dotnet new console -n Funkcje -f net10.0
 Console.WriteLine("Hello, World!");
 
 mojaMetoda();
@@ -28,6 +29,13 @@ if(nazwaDruzyny == "")
 }
 Console.WriteLine($"Witaj, {nazwaDruzyny}");
 
+int x = 0;
+
+while (x < 10)
+{
+    x++;
+    Console.WriteLine(x);
+}
 
 static void mojaMetoda()
 {
